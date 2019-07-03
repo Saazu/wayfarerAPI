@@ -1,0 +1,31 @@
+{
+  "name": "wayfarerapi",
+  "version": "1.0.0",
+  "description": "API for transportation service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node server/index",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ananse-delle/wayfarerAPI.git"
+  },
+  "author": "Saazu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ananse-delle/wayfarerAPI/issues"
+  },
+  "homepage": "https://github.com/ananse-delle/wayfarerAPI#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "eslint": "^6.0.1",
+    "mocha": "^6.1.4",
+    "nodemon": "^1.19.1"
+  }
+}
